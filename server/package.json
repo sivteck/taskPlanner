@@ -1,0 +1,27 @@
+{
+  "name": "task_planner-server",
+  "version": "1.0.0",
+  "description": "Task Planner",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": [
+    "express",
+    "pg"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sivteck/taskPlanner.git"
+  },
+  "keywords": [
+    "tasks",
+    "todo"
+  ],
+  "author": "Sivaram Balakrishnan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sivteck/taskPlanner/issues"
+  },
+  "homepage": "https://github.com/sivteck/taskPlanner#readme"
+}

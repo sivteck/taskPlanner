@@ -1,0 +1,26 @@
+{
+  "name": "task_planner-client",
+  "version": "1.0.0",
+  "description": "Front-end for the task planner app",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d build && cp public/index.html build/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sivteck/taskPlanner.git"
+  },
+  "author": "Sivaram Balakrishnan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sivteck/taskPlanner/issues"
+  },
+  "homepage": "https://github.com/sivteck/taskPlanner#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0"
+  }
+}
